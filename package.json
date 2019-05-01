@@ -1,0 +1,46 @@
+{
+  "name": "svelte-starter",
+  "version": "1.0.0",
+  "description": "My Svelte project starter",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xhs/svelte-starter.git"
+  },
+  "author": "Xiaohan Song",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xhs/svelte-starter/issues"
+  },
+  "homepage": "https://github.com/xhs/svelte-starter",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/polyfill": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^2.0.1",
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.1",
+    "glob-all": "^3.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.6.0",
+    "node-sass": "^4.11.0",
+    "postcss": "^7.0.14",
+    "postcss-loader": "^3.0.0",
+    "purgecss-webpack-plugin": "^1.4.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "svelte": "^2.16.1",
+    "svelte-loader": "^2.13.3",
+    "svelte-page": "^2.2.1",
+    "tailwindcss": "^0.7.4",
+    "terser-webpack-plugin": "^1.2.3",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
